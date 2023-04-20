@@ -7,6 +7,7 @@
    <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
+  <div class="container">
   <section class="author">
     <img src="" id="author"/>
     <div class="author-avatar-container">
@@ -16,21 +17,60 @@
     <p class="author-title-two">fullstack developer</p>
 
 <ul class="author-social">
-  <li><img src="" id="instagram"><a href="#"></a></img></li>
-  <li><img src="" id="facebook" class="icon"><a href="https://www.facebook.com/profile.php?id=100004860166902"></a></img></li>
-   <li><img src="" class="icon" id="linkedin"><a href="https://www.linkedin.com/in/piddubchak/"></a></img></li>
+  <li><a href="#"><img src="#" id="instagram"/></a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=100004860166902"><img src="" id="facebook" class="icon"/></a></li>
+   <li><a href="https://www.linkedin.com/in/piddubchak/"><img src="" class="icon" id="linkedin"></a></img></li>
 </ul>
 
     <p class="author-text">Front-end разработчик. Практик верстки сайтов.
 Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000 часов в создании сайтов различной сложности.</p>
 
     <div class="author-buttons">
-     <div class="author-button"><a href="#">Мої роботи</a></div>
-      <div class="author-button author-button-two"><a href="#">Написати мені</a></div>
+     <a class="author-button" href="#">Мої роботи</a>
+      <a class="author-button author-button-two" href="mailto:vitaliy_piddubchak@ukr.net">Написати мені</a>
     </div>
   </section>
-  <!-- <h1>Hello</h1> 
-  
-  <p class="i">I`m Vitalii</p> -->
+<div>
+  <header class="header">
+    <nav>
+      <ul class="header-nav">
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Про мене</a></li>
+        <li><a href="#">Проекти в яких я брав участь</a></li>
+        <li><a href="https://drive.google.com/file/d/10NbqlkI5dFs1FUoSyRGaJjfOStt0mhvv/view?usp=share_link">Моє резюме</a></li>
+      </ul>
+    </nav>
+    <ul class="header-contacts">
+      <li><a href="tel:+380971428868">тел: +38 (097)-14-28-868</a></li>
+      <li><a href="mailto:vitaliy_piddubchak@ukr.net">email: vitaliy_piddubchak@ukr.net</a></li>
+    </ul>
+  </header>
+<section class="about">
+  <h3 class="about-title">Про мене</h3>
+  <div class="about-text-container">
+  <p>
+    Мій шлях в розробку розпочався з знайомства з такою програмою як excel. Протягом семи років я займався фінансами на фірмі яка займалась ремонтними роботами приміщень. В процесі роботи я зіткнувся з потребою автоматизації свого обліку. Я почав будувати систему обліку з допомогою програми excel. Протягом своєї роботи я постійно вдосконалював свою облікову систему, придумував нові функції, виводив нові показники. Процес розробки почав приносити мені більше задоволення ніж моя основна діяльність.
+  </p>
+  <p>
+Зрозумівши що розробка мені найбільше імпонує ніж звичайна рутинна робота я почав цікавитись різноманітними технологіями. Спочатку я переглянув кілька відео в YouTube де розповідалось про основи Java. Я почав цікавитись можливостями цієї мови програмування і навіть планував розпочати її вивчення. Але якось я натрапив на безкоштовний вебінар GO IT де розповідалось про створення сайтів та різних веб-застосунків. Мене зацікавила ця тема і в листопаді 2021 року я розпочав навчання на курсі fullstack в GO IT.
+  </p>
+  <p>
+    Протягом навчання ми реалізували багато цікавих проектів як на ванільному Java Script так і на React. Останній командний проект, який ми реалізовували з командою випускників був з використанням такої технології як React Native.
+  </p>
+  <p>
+   Технології я якими я працюю це - HTML, CSS, SASS, Java Script, React та React Native. 
+  </p>
+</div>
+</section>
+<section class="projects">
+  <h3 class="projects-title">
+    ПРОЕКТИ В ЯКИХ Я БРАВ УЧАСТЬ
+  </h3>
+  <div>
+    <img src="" alt="" id="projectsImg">
+  </div>
+</section>
+</div>
+ </div>
 </body>
 </html>

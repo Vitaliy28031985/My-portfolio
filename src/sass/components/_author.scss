@@ -6,10 +6,10 @@
 }
 .author-avatar-container {
    position: absolute;
-   top: 130px;
+   top: 111px;
    width: 102px;
    height: 101px;  
-   margin-left: 99px;
+   margin-left: 85px;
    border-radius: 50%;
    background-color: $title-text-color; 
 }
@@ -82,17 +82,16 @@ width: 120px;
 padding-top: 16px;
 padding-bottom: 16px;
 background-color: $button-one-color;
-border-radius: 25px;
-box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
-}
-
-.author-button a {
 font-weight: 500;
 font-size: 12px;
 line-height: 1.2;
 text-align: center;
 color: $title-text-color;
+border-radius: 25px;
+box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
 }
+
+
 .author-button-two {
 margin-left: 20px;
 background-color: $button-two-color;
