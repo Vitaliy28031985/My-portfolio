@@ -4,6 +4,11 @@
    padding-bottom: 60px;
    background-color: $author-background-color;
 }
+#author {
+    opacity: 1;
+    animation-name: opacity-two;
+    animation-duration: 8000ms;
+}
 .author-avatar-container {
    position: absolute;
    top: 111px;
@@ -71,6 +76,13 @@ text-align: center;
    margin-right: 15px;
 }
 
+.author-social li {
+   &:focus, &:hover {
+   animation-name: opacity;
+   animation-duration: 1000ms;  
+   }
+}
+
 .author-buttons {
 display: flex;
 margin-top: 60px;
@@ -89,6 +101,11 @@ text-align: center;
 color: $title-text-color;
 border-radius: 25px;
 box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
+&:focus, &:hover {
+color: $text-color;
+animation-name: opacity;
+animation-duration: 1000ms;  
+}
 }
 
 
