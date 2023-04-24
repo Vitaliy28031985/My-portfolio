@@ -20,14 +20,3 @@ videoId.src = videos[helpers.count].link;
 });
 
 
-    //videos[helpers.getCount()].link
-
-
-// const videoGallery = () => {
-//   const render = ` <iframe width="560" id="video" height="315" src=""
-//   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-
-//   video.insertAdjacentHTML("afterbegin", render);
-// };
-
-// videoGallery();
