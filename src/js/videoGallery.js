@@ -1,7 +1,6 @@
 import { helpers } from "./helpers/helpers";
 import { videos } from "./db/videos";
 
-const video = document.querySelector(".video-gallery-video");
 
 const returnId = document.getElementById("return");
 const nextId = document.getElementById("next");
