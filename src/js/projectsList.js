@@ -6,9 +6,9 @@ console.log(list);
 
 const projectsList = () => {
    const render = projects
-      .map(
-         ({ id, avatar, title, description, technologies, linkWeb, linkGit }) =>
-            `<li>
+     .map(
+       ({avatar, title, description, technologies, linkWeb, linkGit }) =>
+         `<li data-aos="fade-in">
          <div><img src=${avatar} alt="${title}" /></div>
          <h3>${title}</h3>
          <p>${description}</p>
@@ -16,7 +16,8 @@ const projectsList = () => {
          <a href="${linkWeb}">Перейти на сторінку застосунку</a>
          <a href="${linkGit}">Переглянути код</a>
          </li>`
-      ).join("");
+     )
+     .join("");
    
    list.insertAdjacentHTML("afterbegin", render);
 };

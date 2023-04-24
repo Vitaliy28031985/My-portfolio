@@ -16,12 +16,14 @@ color: $title-text-color;
 }
 
 .projects-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
    margin-top: 25px;
 } 
 
 .projects-list li {
    width: 620px;
-   margin-left: 200px;
    padding: 15px;
    margin-bottom: 25px;
    background-color: $author-background-color;
