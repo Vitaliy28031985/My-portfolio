@@ -2,8 +2,6 @@ import { projects } from "./db/projects";
 
 const list = document.querySelector(".projects-list");
 
-console.log(list);
-
 const projectsList = () => {
    const render = projects
      .map(
