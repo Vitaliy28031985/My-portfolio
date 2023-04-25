@@ -272,7 +272,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 285px;
   height: 40px;
   position: absolute;
   top: 0;
@@ -286,6 +286,7 @@ body {
 @media screen and (min-width: 768px) {
   .header {
     position: static;
+    width: 100%;
   }
 }
 
@@ -309,7 +310,7 @@ body {
 .header-container {
   position: absolute;
   top: 230px;
-  left: 17px;
+  left: 21px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
