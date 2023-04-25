@@ -11,39 +11,62 @@
 }
 .author-avatar-container {
    position: absolute;
+   top: 153px;
+   left: 15px;
+   width: 67px;
+   height: 66px;
+   border-radius: 50%;
+   background-color: $title-text-color;
+    @media screen and (min-width: 768px) {
    top: 111px;
    width: 102px;
    height: 101px;  
-   margin-left: 85px;
-   border-radius: 50%;
-   background-color: $title-text-color; 
+   margin-left: 65px;
+    }
 }
 .author-avatar {
-   width: 100px;
-   height: 100px;
+   width: 65px;
+   height: 65px;
    margin-left: 1px;
    margin-top: 1px;
    border-radius: 50%;
+   @media screen and (min-width: 768px) {
+   width: 100px;
+   height: 100px;  
+   }
 }
 
 
 .author-title-one {
+position: absolute;
+top: 180px;
+left: 90px;
 color: $title-text-color;
-margin-top: 69px;
 margin-bottom: 3px;
 font-family: 'Roboto';
 font-weight: 400;
-font-size: 18px;
+font-size: 15px;
 line-height: 1.2;
-text-align: center;
+
+@media screen and (min-width: 768px) {
+position: static;
+margin-top: 69px;
+font-size: 18px; 
+text-align: center;  
+}
 }
 
 .author-title-two {
+margin-top: 20px;
 color: $text-color;
 font-weight: 300;
-font-size: 14px;
+font-size: 12px;
 line-height: 1.1;
-text-align: center;  
+text-align: center;
+@media screen and (min-width: 768px) {
+margin-top: 0;
+font-size: 14px;   
+}  
 }
 
 .author-text {
@@ -62,9 +85,12 @@ text-align: center;
 .author-social {
    display: flex;
    gap: 15px;
-   margin-top: 18px;
+   margin-top: 70px;
    margin-bottom: 60px;
    justify-content: center;
+   @media screen and (min-width: 768px) {
+      margin-top: 18px; 
+   }
 }
 
 .icon {
@@ -73,9 +99,10 @@ text-align: center;
 }
 
 .author-social li {
+   animation-duration: 1000ms;
    &:focus, &:hover {
    animation-name: opacity;
-   animation-duration: 1000ms;  
+   filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25)); 
    }
 }
 
@@ -83,6 +110,7 @@ text-align: center;
 display: flex;
 margin-top: 60px;
 justify-content: center;
+
 }
 
 .author-button {
