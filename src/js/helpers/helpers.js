@@ -14,5 +14,11 @@ export const helpers = {
     } else {
       this.count = maxCount;
     }
-  }
+  },
+  addOpacity(element, classAdd) {
+    element.classList.add(classAdd);
+  },
+  removeOpacity(element, classRemove) {
+    element.classList.remove(classRemove);
+  },
 };

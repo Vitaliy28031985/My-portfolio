@@ -1,24 +1,22 @@
+import { helpers } from "./helpers/helpers";
+
 
 const burgerButton = document.getElementById("burger-button");
 const closeButton = document.getElementById("close");
 const headerContainer = document.getElementById("header-container");
 
-headerContainer.classList.add("is-open");
-closeButton.classList.add("remove-button");
 
+helpers.addOpacity(headerContainer, "is-open");
+helpers.addOpacity(closeButton, "remove-button");
 
-const addOpacity = () => {
-   headerContainer.classList.remove("is-open");
-   closeButton.classList.remove("remove-button");
-   burgerButton.classList.add("remove-button");
-}
+burgerButton.addEventListener("click", function () {
+   helpers.removeOpacity(headerContainer, "is-open");
+   helpers.removeOpacity(closeButton, "remove-button");
+   helpers.addOpacity(burgerButton, "remove-button");
+});
 
-const removeOpacity = () => {
-   
-headerContainer.classList.add("is-open");  
-closeButton.classList.add("remove-button");
-burgerButton.classList.remove("remove-button");
-}
-
-burgerButton.addEventListener("click", addOpacity);
-closeButton.addEventListener("click", removeOpacity);
+closeButton.addEventListener("click", function () {
+   helpers.addOpacity(headerContainer, "is-open");
+   helpers.addOpacity(closeButton, "remove-button");
+   helpers.removeOpacity(burgerButton, "remove-button");
+});
