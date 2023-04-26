@@ -9,6 +9,17 @@ img {
 	width: 100%;
 	display: block;
 }
+
+a {
+	text-decoration: none;
+	display: block;
+	padding: 0;
+}
+body{
+    font-family: 'Roboto';
+    background-color: $author-background-color;
+}
+
 .container {
 	position: relative;
 	margin-left: auto;
@@ -23,6 +34,7 @@ img {
 	@media screen and (min-width: 768px) {
 	// width: 734px;
    display: flex;
+	justify-content: center;
 	}
 	@media screen and (min-width:1000px){
 		// width: 989px;
@@ -30,12 +42,12 @@ img {
 
 }
 
-a {
-	text-decoration: none;
-	display: block;
-	padding: 0;
+.page-content-container {
+	margin-left: auto;
+	margin-top: auto;
+	// @media screen and (min-width: 768px) {
+	// margin-left: 0;
+	// margin-top: 0;	
+	// }
 }
-body{
-    font-family: 'Roboto';
-    background-color: $author-background-color;
-}
+

@@ -1,14 +1,17 @@
 .projects {
-   margin-top: 25px;
+width: 305px; 
+margin-left: auto;
+margin-right: auto;  
+margin-top: 25px;
 padding: 25px;
 background-color: $header-background-color;
 box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
 border-radius: 5px;
-@media screen and (min-width: 320px) and (max-width: 768) {
-width: 280px;
+@media screen and (min-width: 768px) { 
+width: 400px;
 }
-@media screen and (min-width: 768px) {
-margin-left: 25px;  
+@media screen and (min-width: 1213px) {
+ width: 100%; 
 }
 }
 .projects-title {
@@ -23,23 +26,37 @@ color: $title-text-color;
 }
 }
 
+
 .projects-list {
+   width: 305px;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
    margin-top: 25px;
+    @media screen and (min-width: 768px) {
+    width: 400px;  
+   }
+     @media screen and (min-width: 1213px) {
+     width: 650px; 
+}
+
 } 
 
 .projects-list li {
    width: 250px;
    padding: 15px;
    margin-bottom: 25px;
+   flex-basis: calc(100% / 1);
    background-color: $author-background-color;
    border-radius: 5px;
    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
    @media screen and (min-width: 768px) {
-    width: 620px;  
+    width: 340px;  
    }
+     @media screen and (min-width: 1213px) {
+     width: 620px; 
+}
 }
 
 .projects-list div {
@@ -47,10 +64,15 @@ color: $title-text-color;
 }
 
 .projects-list img {
-width: 220px;
+width: 275px;
+margin-left: auto;
+margin-right: auto;
 border-radius: 5px;
 @media screen and (min-width: 768px) {
- width: 600px;  
+ width: 365px;  
+}
+ @media screen and (min-width: 1213px) {
+   width: 600px; 
 }
 }
 
