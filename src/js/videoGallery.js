@@ -15,7 +15,6 @@ videoId.src = videos[helpers.count].link;
 nextId.addEventListener("click", function () {
   helpers.counterIncrement(videos.length - 1);
 videoId.src = videos[helpers.count].link;
-  console.log(helpers.count);
 });
 
 
