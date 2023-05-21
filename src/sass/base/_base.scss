@@ -38,6 +38,7 @@ body{
 	}
 	@media screen and (min-width:1213px){
 		width: 1300px;
+		justify-content: center;
 	}
 
 }
@@ -45,9 +46,5 @@ body{
 .page-content-container {
 	margin-left: auto;
 	margin-top: auto;
-	// @media screen and (min-width: 768px) {
-	// margin-left: 0;
-	// margin-top: 0;	
-	// }
 }
 
