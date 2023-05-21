@@ -15,7 +15,9 @@
    }
     @media screen and (min-width: 1213px) {
     width: 100%;
-
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-bottom: 10px;
     }
 }
 .burger {
@@ -39,10 +41,10 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 20px;
 padding-right: 20px;
-@media screen and (max-width: 768px) {
 background-color: $header-background-color;
-}
+
 @media screen and (min-width: 768px) {
+   background-color: rgba(0, 0, 0, 0);
 opacity: 1;
 padding-top: 0;
 padding-bottom: 0;

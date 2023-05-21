@@ -1,12 +1,9 @@
 export const videos = [
+   
    {
-   link: "https://www.youtube.com/embed/-pJN9faoa8E"
+      link: "https://www.youtube.com/embed/A6P1-kr9GHQ?controls"
    },
    {
-      link: "https://www.youtube.com/embed/eSaF8NXeNsA"
-   },
-   {
-      link: "https://www.youtube.com/embed/3aGSqasVPsI"
-   },
-
+      link: "https://www.youtube.com/embed/tnpX9AkP2Jc"
+   }
 ]
