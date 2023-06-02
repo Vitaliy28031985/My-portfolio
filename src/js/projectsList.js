@@ -11,8 +11,8 @@ const projectsList = () => {
          <h3>${title}</h3>
          <p>${description}</p>
          <p>${technologies}</p>
-         <a href="${linkWeb}">Перейти на сторінку застосунку</a>
-         <a href="${linkGit}">Переглянути код</a>
+         <a href="${linkWeb}" target="_blank">Перейти на сторінку застосунку</a>
+         <a href="${linkGit}" target="_blank">Переглянути код</a>
          </li>`
      )
      .join("");
