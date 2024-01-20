@@ -3,10 +3,22 @@ import iceCream from "../../assets/ice-cream.jpeg";
 import filmoteka from "../../assets/filmoteka.jpeg";
 import petly from "../../assets/petly.jpeg";
 import FinanceLedger from "../../assets/FinanceLedger.jpg";
+import singerPage from "../../assets/singer-page.jpg";
+import estimateApp from "../../assets/estimate-app-frontend.png";
 
 export const projects = [
-  {
+   {
     id: "1",
+    avatar: estimateApp,
+    title: "EstimateApp",
+    description:
+      "Bеб-застосунок створений для підтримки будівельно-ремонтних бригад, a саме допомогa у створенні будівельно-ремонтних кошторисів та прайсів.",
+    technologies: "HTML, CSS, SASS , Java Script, React, Reduxtoolk, RTK Query, Express, Mongoose, Webpack, GitHub",
+    linkWeb: "https://vitaliy28031985.github.io/estimate-app-frontend/",
+    linkGit: "https://github.com/Vitaliy28031985/estimate-app-frontend",
+  },
+  {
+    id: "2",
     avatar: webStudio,
     title: "WebStudio",
     description:
@@ -16,7 +28,7 @@ export const projects = [
     linkGit: "https://github.com/Vitaliy28031985/goit-markup-hw-08",
   },
   {
-    id: "2",
+    id: "3",
     avatar: iceCream,
     title: "IceCream",
     description:
@@ -26,7 +38,7 @@ export const projects = [
     linkGit: "https://github.com/slavikidak/project-pink",
   },
   {
-    id: "3",
+    id: "4",
     avatar: filmoteka,
     title: "Filmoteka",
     description:
@@ -36,7 +48,7 @@ export const projects = [
     linkGit: "https://github.com/Maksmaximusmaxim/-team-project",
   },
   {
-    id: "4",
+    id: "5",
     avatar: petly,
     title: "Petly",
     description:
@@ -47,7 +59,7 @@ export const projects = [
     linkGit: "https://github.com/serg-rsv/team-project-care-pets",
   },
   {
-    id: "5",
+    id: "6",
     avatar: FinanceLedger,
     title: "Finance Ledger",
     description:
@@ -55,5 +67,15 @@ export const projects = [
     technologies: "HTML, CSS, SCSS Java Script, GitHub, Webpack",
     linkWeb: "https://ornate-tiramisu-a67827.netlify.app",
     linkGit: "https://github.com/Vitaliy28031985/finance-ledger",
+  },
+    {
+    id: "7",
+    avatar: singerPage,
+    title: "Сайт візитка співака Михайла Іващенка",
+    description:
+      "Верстка веб-сайту для артиста Михайла Іващенка. Метою сайту, є публякація матеріалів про творчість та життя співака.",
+    technologies: "HTML, CSS, SCSS Java Script, GitHub, simplelightbox",
+    linkWeb: "https://vitaliy28031985.github.io/singer-page/index.html",
+    linkGit: "https://github.com/Vitaliy28031985/singer-page/tree/main",
   },
 ];
